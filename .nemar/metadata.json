@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Pahwa-2015-optimizing-10.1371/journal.pone.0142947",
+  "title": "Wakeful and sleep-like states in subdural ECoG (Pahwa et al., 2015): 4 patients, 64-channel grids",
   "description": "Subdural electrocorticography (ECoG) recordings from four patients with intractable epilepsy, implanted with 8x8 grids over left frontal, temporal and parietal cortex during clinical monitoring. For each patient, two wakeful and two sleep-like epochs were identified from video and audio of natural behaviour, with no task. The dataset supports work on detecting wakeful and sleep-like states for future ECoG brain-computer interface applications.",
   "methods_description": "Subdural platinum grids (8x8, 2.3 mm electrodes, 10 mm spacing) recorded raw ECoG with a 0.1 Hz hardware high-pass, referenced to a skull-facing electrode. Wake and sleep-like epochs were labelled from video/audio during clinical monitoring. Sampling rates were 256 Hz for subject A and 512 Hz for subjects B-D, and the data were converted to BrainVision float32 format.",
   "license": "CC0-1.0",
@@ -101,5 +101,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "b20bbe98524b92301ad3aa34204d9bee599142ea6b7498e0fa5b5fe937b236a6"
+  "source_hash": "eb643f0087f28fba29e19b1d3e9ff76e8b5c67dfaa8b34c22d0614cc8f51b36a"
 }
