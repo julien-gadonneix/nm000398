@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Wakeful and sleep-like states in subdural ECoG (Pahwa et al., 2015): 4 patients, 64-channel grids",
-  "description": "Subdural electrocorticography (ECoG) recordings from four patients with intractable epilepsy, acquired with 8x8 electrode grids over left frontal, temporal and parietal cortex during clinical monitoring. For each patient, two wakeful and two sleep-like epochs were identified from video and audio of natural behaviour, with no task. The data support work on detecting wake and sleep-like states for future ECoG brain-computer interface applications.",
-  "methods_description": "Subdural 8x8 platinum grids (2.3 mm electrodes, 10 mm spacing) recorded raw ECoG during clinical epilepsy monitoring, with a 0.1 Hz hardware high-pass. Wake and sleep-like epochs were identified from video/audio. Sampling rate was 256 Hz for subject A and 512 Hz for subjects B-D according to the release README. Data were converted to BrainVision float32 format.",
+  "title": "Pahwa-2015-optimizing-10.1371/journal.pone.0142947",
+  "description": "Subdural electrocorticography (ECoG) recordings from four patients with intractable epilepsy, implanted with 8x8 grids over left frontal, temporal and parietal cortex during clinical monitoring. For each patient, two wakeful and two sleep-like epochs were identified from video and audio of natural behaviour, with no task. The dataset supports work on detecting wakeful and sleep-like states for future ECoG brain-computer interface applications.",
+  "methods_description": "Subdural platinum grids (8x8, 2.3 mm electrodes, 10 mm spacing) recorded raw ECoG with a 0.1 Hz hardware high-pass, referenced to a skull-facing electrode. Wake and sleep-like epochs were labelled from video/audio during clinical monitoring. Sampling rates were 256 Hz for subject A and 512 Hz for subjects B-D, and the data were converted to BrainVision float32 format.",
   "license": "CC0-1.0",
   "dataset_type": "raw",
   "authors": {
@@ -16,9 +16,10 @@
   },
   "keywords": [
     {
-      "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+      "term": "electrocorticography"
+    },
+    {
+      "term": "ECoG"
     },
     {
       "term": "Sleep",
@@ -31,15 +32,12 @@
       "value_uri": "http://id.nlm.nih.gov/mesh/D014851"
     },
     {
-      "term": "Brain-Computer Interfaces",
+      "term": "brain-computer interface"
+    },
+    {
+      "term": "Epilepsy",
       "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D062207"
-    },
-    {
-      "term": "ECoG"
-    },
-    {
-      "term": "epilepsy monitoring"
+      "value_uri": "http://id.nlm.nih.gov/mesh/D004827"
     }
   ],
   "related_identifiers": [
@@ -67,7 +65,8 @@
   "funding_references": [
     {
       "funder_name": "National Science Foundation",
-      "award_number": "EFRI1137211"
+      "award_number": "EFRI1137211",
+      "award_title": "Emerging Frontiers in Research and Innovation"
     },
     {
       "funder_name": "National Institute of Mental Health",
@@ -102,5 +101,5 @@
     ".vmrk",
     ".yml"
   ],
-  "source_hash": "66283f2f34f9dc582c3e6402663f73540a1e704a6750e610de48c443e1cd7dfc"
+  "source_hash": "b20bbe98524b92301ad3aa34204d9bee599142ea6b7498e0fa5b5fe937b236a6"
 }
